@@ -1,0 +1,1211 @@
+2019-09-30 20:18:19.912 CEST [4811] LOG:  starting PostgreSQL 13devel on x86_64-pc-linux-gnu, compiled by gcc (Gentoo 7.3.0-r3 p1.4) 7.3.0, 64-bit
+2019-09-30 20:18:19.912 CEST [4811] LOG:  listening on IPv6 address "::1", port 5432
+2019-09-30 20:18:19.912 CEST [4811] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-09-30 20:18:19.914 CEST [4811] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-09-30 20:18:19.916 CEST [4812] LOG:  database system was shut down at 2019-09-30 20:18:19 CEST
+2019-09-30 20:18:19.917 CEST [4811] LOG:  database system is ready to accept connections
+2019-09-30 20:18:25.891 CEST [4835] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:25.891 CEST [4835] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:25.891 CEST [4835] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:25.891 CEST [4835] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:26.294 CEST [4835] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:26.294 CEST [4835] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:26.294 CEST [4835] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:26.294 CEST [4835] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:26.309 CEST [4835] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:26.309 CEST [4835] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:26.683 CEST [4835] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.79 s
+2019-09-30 20:18:26.683 CEST [4835] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:26.746 CEST [4841] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:26.746 CEST [4841] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:26.746 CEST [4841] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:26.746 CEST [4841] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:27.148 CEST [4841] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:27.148 CEST [4841] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:27.148 CEST [4841] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:27.148 CEST [4841] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:27.162 CEST [4841] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:27.162 CEST [4841] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:27.520 CEST [4841] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.77 s
+2019-09-30 20:18:27.520 CEST [4841] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:27.608 CEST [4847] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:27.608 CEST [4847] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:27.608 CEST [4847] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:27.608 CEST [4847] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:28.010 CEST [4847] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:28.010 CEST [4847] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:28.010 CEST [4847] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:28.010 CEST [4847] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:28.024 CEST [4847] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:28.024 CEST [4847] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:28.340 CEST [4847] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.73 s
+2019-09-30 20:18:28.340 CEST [4847] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:28.476 CEST [4853] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:28.476 CEST [4853] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:28.476 CEST [4853] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:28.476 CEST [4853] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:28.877 CEST [4853] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:28.877 CEST [4853] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:28.877 CEST [4853] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:28.877 CEST [4853] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:28.892 CEST [4853] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:28.892 CEST [4853] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:29.159 CEST [4853] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.68 s
+2019-09-30 20:18:29.159 CEST [4853] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:29.310 CEST [4859] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:29.310 CEST [4859] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:29.310 CEST [4859] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:29.310 CEST [4859] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:29.711 CEST [4859] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:29.711 CEST [4859] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:29.711 CEST [4859] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:29.711 CEST [4859] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:29.726 CEST [4859] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:29.726 CEST [4859] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:30.104 CEST [4859] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.79 s
+2019-09-30 20:18:30.104 CEST [4859] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:30.151 CEST [4865] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:30.151 CEST [4865] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:30.151 CEST [4865] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:30.151 CEST [4865] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:30.553 CEST [4865] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:30.553 CEST [4865] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:30.553 CEST [4865] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:30.553 CEST [4865] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:30.567 CEST [4865] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:30.567 CEST [4865] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:30.929 CEST [4865] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.77 s
+2019-09-30 20:18:30.929 CEST [4865] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:31.032 CEST [4871] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:31.032 CEST [4871] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:31.032 CEST [4871] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:31.032 CEST [4871] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:31.433 CEST [4871] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:31.433 CEST [4871] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:31.433 CEST [4871] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:31.433 CEST [4871] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:31.448 CEST [4871] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:31.448 CEST [4871] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:31.777 CEST [4871] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.74 s
+2019-09-30 20:18:31.777 CEST [4871] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:31.878 CEST [4877] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:31.878 CEST [4877] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:31.878 CEST [4877] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:31.878 CEST [4877] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:32.279 CEST [4877] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:32.279 CEST [4877] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:32.279 CEST [4877] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:32.279 CEST [4877] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:32.294 CEST [4877] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:32.294 CEST [4877] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:32.596 CEST [4877] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.71 s
+2019-09-30 20:18:32.596 CEST [4877] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:32.724 CEST [4883] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:32.724 CEST [4883] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:32.724 CEST [4883] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:32.724 CEST [4883] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:33.126 CEST [4883] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:33.126 CEST [4883] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:33.126 CEST [4883] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:33.126 CEST [4883] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:33.140 CEST [4883] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:33.140 CEST [4883] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:33.398 CEST [4883] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.67 s
+2019-09-30 20:18:33.398 CEST [4883] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:33.558 CEST [4889] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:33.558 CEST [4889] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:33.558 CEST [4889] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:33.558 CEST [4889] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:33.960 CEST [4889] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:33.960 CEST [4889] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:33.960 CEST [4889] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:33.960 CEST [4889] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:33.974 CEST [4889] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:33.974 CEST [4889] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:34.353 CEST [4889] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.46 s, system: 0.04 s, elapsed: 0.79 s
+2019-09-30 20:18:34.353 CEST [4889] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:34.410 CEST [4895] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:34.410 CEST [4895] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:34.410 CEST [4895] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:34.410 CEST [4895] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:34.812 CEST [4895] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:34.812 CEST [4895] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:34.812 CEST [4895] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:34.812 CEST [4895] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:34.826 CEST [4895] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:34.826 CEST [4895] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:35.171 CEST [4895] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.76 s
+2019-09-30 20:18:35.171 CEST [4895] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:35.258 CEST [4901] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:35.258 CEST [4901] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:35.258 CEST [4901] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:35.258 CEST [4901] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:35.659 CEST [4901] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:35.659 CEST [4901] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:35.659 CEST [4901] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:35.659 CEST [4901] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:35.674 CEST [4901] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:35.674 CEST [4901] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:35.988 CEST [4901] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.73 s
+2019-09-30 20:18:35.988 CEST [4901] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:36.102 CEST [4907] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:36.102 CEST [4907] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:36.102 CEST [4907] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:36.102 CEST [4907] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:36.504 CEST [4907] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:36.504 CEST [4907] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:36.504 CEST [4907] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:36.504 CEST [4907] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:36.518 CEST [4907] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:36.518 CEST [4907] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:36.820 CEST [4907] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.71 s
+2019-09-30 20:18:36.820 CEST [4907] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:36.969 CEST [4913] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:36.969 CEST [4913] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:36.969 CEST [4913] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:36.969 CEST [4913] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:37.370 CEST [4913] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:37.370 CEST [4913] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:37.370 CEST [4913] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:37.370 CEST [4913] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:37.385 CEST [4913] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:37.385 CEST [4913] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:37.771 CEST [4913] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.03 s, elapsed: 0.80 s
+2019-09-30 20:18:37.771 CEST [4913] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:37.816 CEST [4919] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:37.816 CEST [4919] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:37.816 CEST [4919] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:37.816 CEST [4919] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:38.218 CEST [4919] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:38.218 CEST [4919] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:38.218 CEST [4919] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:38.218 CEST [4919] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:38.233 CEST [4919] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:38.233 CEST [4919] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:38.600 CEST [4919] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.78 s
+2019-09-30 20:18:38.600 CEST [4919] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:38.667 CEST [4925] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:38.667 CEST [4925] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:38.667 CEST [4925] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:38.667 CEST [4925] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:39.069 CEST [4925] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:39.069 CEST [4925] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:39.069 CEST [4925] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:39.069 CEST [4925] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:39.083 CEST [4925] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:39.083 CEST [4925] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:39.418 CEST [4925] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.75 s
+2019-09-30 20:18:39.418 CEST [4925] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:39.523 CEST [4931] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:39.523 CEST [4931] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:39.523 CEST [4931] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:39.523 CEST [4931] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:39.925 CEST [4931] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:39.925 CEST [4931] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:39.925 CEST [4931] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:39.925 CEST [4931] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:39.939 CEST [4931] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:39.939 CEST [4931] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:40.247 CEST [4931] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.72 s
+2019-09-30 20:18:40.247 CEST [4931] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:40.374 CEST [4937] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:40.374 CEST [4937] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:40.374 CEST [4937] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:40.374 CEST [4937] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:40.776 CEST [4937] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:40.776 CEST [4937] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:40.776 CEST [4937] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:40.776 CEST [4937] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:40.790 CEST [4937] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:40.790 CEST [4937] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:41.187 CEST [4937] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.81 s
+2019-09-30 20:18:41.187 CEST [4937] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:41.213 CEST [4943] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:41.213 CEST [4943] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:41.213 CEST [4943] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:41.213 CEST [4943] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:41.615 CEST [4943] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:41.615 CEST [4943] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:41.615 CEST [4943] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:41.615 CEST [4943] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:41.630 CEST [4943] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:41.630 CEST [4943] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:42.025 CEST [4943] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.81 s
+2019-09-30 20:18:42.025 CEST [4943] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:42.111 CEST [4949] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:42.111 CEST [4949] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:42.111 CEST [4949] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:42.111 CEST [4949] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:42.514 CEST [4949] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:42.514 CEST [4949] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:42.514 CEST [4949] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:42.514 CEST [4949] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:42.528 CEST [4949] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:42.528 CEST [4949] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:42.901 CEST [4949] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.78 s
+2019-09-30 20:18:42.901 CEST [4949] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:42.979 CEST [4955] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:42.979 CEST [4955] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:42.979 CEST [4955] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:42.979 CEST [4955] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:43.381 CEST [4955] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:43.381 CEST [4955] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:43.381 CEST [4955] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:43.381 CEST [4955] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:43.396 CEST [4955] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:43.396 CEST [4955] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:43.729 CEST [4955] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.46 s, system: 0.04 s, elapsed: 0.74 s
+2019-09-30 20:18:43.729 CEST [4955] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:43.834 CEST [4961] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:43.834 CEST [4961] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:43.834 CEST [4961] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:43.834 CEST [4961] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:44.237 CEST [4961] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:44.237 CEST [4961] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:44.237 CEST [4961] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:44.237 CEST [4961] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:44.251 CEST [4961] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:44.251 CEST [4961] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:44.547 CEST [4961] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.71 s
+2019-09-30 20:18:44.547 CEST [4961] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:44.684 CEST [4967] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:44.684 CEST [4967] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:44.684 CEST [4967] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:44.684 CEST [4967] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:45.086 CEST [4967] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:45.086 CEST [4967] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:45.086 CEST [4967] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:45.086 CEST [4967] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:45.100 CEST [4967] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:45.100 CEST [4967] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:45.502 CEST [4967] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.81 s
+2019-09-30 20:18:45.502 CEST [4967] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:45.540 CEST [4973] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:45.540 CEST [4973] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:45.540 CEST [4973] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:45.540 CEST [4973] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:45.942 CEST [4973] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:45.942 CEST [4973] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:45.942 CEST [4973] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:45.942 CEST [4973] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:45.957 CEST [4973] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:45.957 CEST [4973] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:46.321 CEST [4973] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.46 s, system: 0.04 s, elapsed: 0.78 s
+2019-09-30 20:18:46.321 CEST [4973] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:46.386 CEST [4979] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:46.386 CEST [4979] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:46.386 CEST [4979] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:46.386 CEST [4979] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:46.788 CEST [4979] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:46.788 CEST [4979] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:46.788 CEST [4979] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:46.788 CEST [4979] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:46.803 CEST [4979] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:46.803 CEST [4979] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:47.151 CEST [4979] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.76 s
+2019-09-30 20:18:47.151 CEST [4979] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:47.243 CEST [4985] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:47.243 CEST [4985] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:47.243 CEST [4985] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:47.243 CEST [4985] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:47.646 CEST [4985] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:47.646 CEST [4985] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:47.646 CEST [4985] LOG:  performsort of worker -1 starting: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:47.646 CEST [4985] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:47.660 CEST [4985] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:47.660 CEST [4985] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:47.972 CEST [4985] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.72 s
+2019-09-30 20:18:47.972 CEST [4985] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:48.095 CEST [4991] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:48.095 CEST [4991] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:48.095 CEST [4991] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:48.095 CEST [4991] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:48.497 CEST [4991] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:48.497 CEST [4991] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:48.497 CEST [4991] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:48.497 CEST [4991] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:48.511 CEST [4991] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:48.511 CEST [4991] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:48.783 CEST [4991] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.68 s
+2019-09-30 20:18:48.783 CEST [4991] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:48.946 CEST [4997] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:48.946 CEST [4997] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:48.946 CEST [4997] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:48.946 CEST [4997] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:49.348 CEST [4997] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:49.348 CEST [4997] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:49.348 CEST [4997] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:49.348 CEST [4997] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:49.362 CEST [4997] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:49.362 CEST [4997] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:49.738 CEST [4997] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.79 s
+2019-09-30 20:18:49.738 CEST [4997] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:49.788 CEST [5003] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:49.788 CEST [5003] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:49.788 CEST [5003] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:49.788 CEST [5003] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:50.190 CEST [5003] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:50.190 CEST [5003] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:50.190 CEST [5003] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:50.190 CEST [5003] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:50.205 CEST [5003] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:50.205 CEST [5003] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:50.573 CEST [5003] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.78 s
+2019-09-30 20:18:50.573 CEST [5003] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:50.651 CEST [5009] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:50.651 CEST [5009] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:50.651 CEST [5009] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:50.651 CEST [5009] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:51.053 CEST [5009] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:51.053 CEST [5009] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:51.053 CEST [5009] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:18:51.053 CEST [5009] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:51.067 CEST [5009] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:18:51.067 CEST [5009] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:51.394 CEST [5009] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.74 s
+2019-09-30 20:18:51.394 CEST [5009] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:51.512 CEST [5015] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:51.512 CEST [5015] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:51.512 CEST [5015] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:51.512 CEST [5015] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:51.914 CEST [5015] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:51.914 CEST [5015] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:51.914 CEST [5015] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:51.914 CEST [5015] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:51.929 CEST [5015] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:51.929 CEST [5015] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:52.221 CEST [5015] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.70 s
+2019-09-30 20:18:52.221 CEST [5015] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:52.353 CEST [5021] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:52.353 CEST [5021] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:52.353 CEST [5021] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:52.353 CEST [5021] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:52.755 CEST [5021] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:52.755 CEST [5021] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:52.755 CEST [5021] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:52.755 CEST [5021] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:52.769 CEST [5021] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:52.769 CEST [5021] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:53.177 CEST [5021] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.82 s
+2019-09-30 20:18:53.177 CEST [5021] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:53.211 CEST [5027] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:53.211 CEST [5027] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:53.211 CEST [5027] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:53.211 CEST [5027] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:53.613 CEST [5027] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:53.613 CEST [5027] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:53.613 CEST [5027] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:53.613 CEST [5027] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:53.628 CEST [5027] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:53.628 CEST [5027] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:54.005 CEST [5027] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.03 s, elapsed: 0.79 s
+2019-09-30 20:18:54.005 CEST [5027] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:54.067 CEST [5033] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:54.067 CEST [5033] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:54.067 CEST [5033] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:54.067 CEST [5033] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:54.470 CEST [5033] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:54.470 CEST [5033] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:54.470 CEST [5033] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:54.470 CEST [5033] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:54.484 CEST [5033] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:54.484 CEST [5033] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:54.822 CEST [5033] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.46 s, system: 0.04 s, elapsed: 0.75 s
+2019-09-30 20:18:54.822 CEST [5033] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:54.910 CEST [5039] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:54.910 CEST [5039] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:54.910 CEST [5039] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:54.910 CEST [5039] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:55.312 CEST [5039] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:55.312 CEST [5039] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:55.312 CEST [5039] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:55.312 CEST [5039] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:55.326 CEST [5039] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:55.326 CEST [5039] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:55.644 CEST [5039] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.73 s
+2019-09-30 20:18:55.644 CEST [5039] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:55.766 CEST [5045] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:55.766 CEST [5045] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:55.766 CEST [5045] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:55.766 CEST [5045] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:56.168 CEST [5045] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:56.168 CEST [5045] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:56.168 CEST [5045] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:56.168 CEST [5045] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:56.183 CEST [5045] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:56.183 CEST [5045] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:56.461 CEST [5045] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.69 s
+2019-09-30 20:18:56.461 CEST [5045] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:56.603 CEST [5051] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:56.603 CEST [5051] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:56.603 CEST [5051] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:56.603 CEST [5051] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:57.006 CEST [5051] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:57.006 CEST [5051] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:57.006 CEST [5051] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:57.006 CEST [5051] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:57.020 CEST [5051] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:57.020 CEST [5051] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:57.419 CEST [5051] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.03 s, elapsed: 0.81 s
+2019-09-30 20:18:57.419 CEST [5051] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:57.465 CEST [5057] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:57.465 CEST [5057] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:57.465 CEST [5057] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:57.465 CEST [5057] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:57.867 CEST [5057] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:57.867 CEST [5057] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:57.867 CEST [5057] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:57.867 CEST [5057] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:57.882 CEST [5057] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:57.882 CEST [5057] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:58.239 CEST [5057] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.77 s
+2019-09-30 20:18:58.239 CEST [5057] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:58.311 CEST [5063] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:58.311 CEST [5063] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:58.311 CEST [5063] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:58.311 CEST [5063] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:58.713 CEST [5063] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:58.713 CEST [5063] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:58.713 CEST [5063] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:58.713 CEST [5063] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:58.727 CEST [5063] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:58.727 CEST [5063] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:59.067 CEST [5063] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.75 s
+2019-09-30 20:18:59.067 CEST [5063] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:59.168 CEST [5069] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:18:59.168 CEST [5069] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:59.168 CEST [5069] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:18:59.168 CEST [5069] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:59.570 CEST [5069] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:59.570 CEST [5069] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:59.570 CEST [5069] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:18:59.570 CEST [5069] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:59.584 CEST [5069] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:18:59.584 CEST [5069] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:18:59.890 CEST [5069] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.72 s
+2019-09-30 20:18:59.890 CEST [5069] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:00.018 CEST [5075] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:00.018 CEST [5075] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:00.018 CEST [5075] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:00.018 CEST [5075] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:00.420 CEST [5075] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:00.420 CEST [5075] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:00.420 CEST [5075] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:00.420 CEST [5075] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:00.434 CEST [5075] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:00.434 CEST [5075] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:00.830 CEST [5075] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.46 s, system: 0.04 s, elapsed: 0.81 s
+2019-09-30 20:19:00.830 CEST [5075] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:00.871 CEST [5081] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:00.871 CEST [5081] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:00.871 CEST [5081] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:00.871 CEST [5081] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:01.273 CEST [5081] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:01.273 CEST [5081] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:01.273 CEST [5081] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:01.273 CEST [5081] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:01.287 CEST [5081] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:01.287 CEST [5081] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:01.675 CEST [5081] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.80 s
+2019-09-30 20:19:01.675 CEST [5081] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:01.731 CEST [5087] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:01.731 CEST [5087] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:01.731 CEST [5087] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:01.731 CEST [5087] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:02.133 CEST [5087] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:02.133 CEST [5087] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:02.133 CEST [5087] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:02.133 CEST [5087] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:02.147 CEST [5087] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:02.147 CEST [5087] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:02.494 CEST [5087] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.76 s
+2019-09-30 20:19:02.494 CEST [5087] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:02.579 CEST [5093] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:02.579 CEST [5093] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:02.579 CEST [5093] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:02.579 CEST [5093] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:02.982 CEST [5093] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:02.982 CEST [5093] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:02.982 CEST [5093] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:02.982 CEST [5093] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:02.996 CEST [5093] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:02.996 CEST [5093] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:03.315 CEST [5093] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.73 s
+2019-09-30 20:19:03.315 CEST [5093] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:03.425 CEST [5099] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:03.425 CEST [5099] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:03.425 CEST [5099] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:03.425 CEST [5099] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:03.828 CEST [5099] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:03.828 CEST [5099] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:03.828 CEST [5099] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:03.828 CEST [5099] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:03.842 CEST [5099] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:03.842 CEST [5099] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:04.136 CEST [5099] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.71 s
+2019-09-30 20:19:04.136 CEST [5099] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:04.275 CEST [5105] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:04.275 CEST [5105] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:04.275 CEST [5105] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:04.275 CEST [5105] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:04.677 CEST [5105] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.03 s, elapsed: 0.40 s
+2019-09-30 20:19:04.677 CEST [5105] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:04.677 CEST [5105] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.03 s, elapsed: 0.40 s
+2019-09-30 20:19:04.677 CEST [5105] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:04.691 CEST [5105] LOG:  performsort of worker -1 done: CPU: user: 0.38 s, system: 0.03 s, elapsed: 0.41 s
+2019-09-30 20:19:04.691 CEST [5105] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:05.077 CEST [5105] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.46 s, system: 0.04 s, elapsed: 0.80 s
+2019-09-30 20:19:05.077 CEST [5105] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:05.115 CEST [5111] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:05.115 CEST [5111] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:05.115 CEST [5111] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:05.115 CEST [5111] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:05.516 CEST [5111] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:05.516 CEST [5111] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:05.517 CEST [5111] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:05.517 CEST [5111] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:05.531 CEST [5111] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:05.531 CEST [5111] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:05.928 CEST [5111] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.81 s
+2019-09-30 20:19:05.928 CEST [5111] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:05.994 CEST [5117] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:05.994 CEST [5117] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:05.994 CEST [5117] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:05.994 CEST [5117] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:06.397 CEST [5117] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:06.397 CEST [5117] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:06.397 CEST [5117] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:06.397 CEST [5117] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:06.411 CEST [5117] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:06.411 CEST [5117] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:06.754 CEST [5117] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.75 s
+2019-09-30 20:19:06.754 CEST [5117] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:06.849 CEST [5123] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:06.849 CEST [5123] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:06.849 CEST [5123] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:06.849 CEST [5123] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:07.251 CEST [5123] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:07.251 CEST [5123] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:07.251 CEST [5123] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:07.251 CEST [5123] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:07.266 CEST [5123] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:07.266 CEST [5123] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:07.575 CEST [5123] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.72 s
+2019-09-30 20:19:07.575 CEST [5123] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:07.711 CEST [5129] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:07.711 CEST [5129] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:07.712 CEST [5129] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:07.712 CEST [5129] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:08.113 CEST [5129] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:08.113 CEST [5129] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:08.113 CEST [5129] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:08.113 CEST [5129] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:08.128 CEST [5129] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:08.128 CEST [5129] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:08.414 CEST [5129] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.03 s, elapsed: 0.70 s
+2019-09-30 20:19:08.414 CEST [5129] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:08.565 CEST [5135] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:08.565 CEST [5135] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:08.565 CEST [5135] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:08.565 CEST [5135] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:08.967 CEST [5135] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:08.967 CEST [5135] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:08.967 CEST [5135] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:08.967 CEST [5135] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:08.982 CEST [5135] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:08.982 CEST [5135] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:09.368 CEST [5135] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.80 s
+2019-09-30 20:19:09.368 CEST [5135] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:09.417 CEST [5141] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:09.417 CEST [5141] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:09.418 CEST [5141] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:09.418 CEST [5141] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:09.820 CEST [5141] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:09.820 CEST [5141] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:09.820 CEST [5141] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:09.820 CEST [5141] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:09.834 CEST [5141] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:09.834 CEST [5141] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:10.184 CEST [5141] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.76 s
+2019-09-30 20:19:10.184 CEST [5141] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:10.272 CEST [5147] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:10.272 CEST [5147] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:10.272 CEST [5147] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:10.272 CEST [5147] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:10.674 CEST [5147] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:10.674 CEST [5147] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:10.675 CEST [5147] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:10.675 CEST [5147] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:10.689 CEST [5147] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:10.689 CEST [5147] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:11.012 CEST [5147] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.73 s
+2019-09-30 20:19:11.012 CEST [5147] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:11.120 CEST [5153] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:11.120 CEST [5153] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:11.120 CEST [5153] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:11.120 CEST [5153] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:11.522 CEST [5153] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:11.522 CEST [5153] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:11.522 CEST [5153] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:11.522 CEST [5153] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:11.537 CEST [5153] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:11.537 CEST [5153] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:11.851 CEST [5153] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.73 s
+2019-09-30 20:19:11.851 CEST [5153] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:11.989 CEST [5159] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:11.989 CEST [5159] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:11.989 CEST [5159] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:11.989 CEST [5159] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:12.391 CEST [5159] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.03 s, elapsed: 0.40 s
+2019-09-30 20:19:12.391 CEST [5159] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:12.391 CEST [5159] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.03 s, elapsed: 0.40 s
+2019-09-30 20:19:12.391 CEST [5159] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:12.405 CEST [5159] LOG:  performsort of worker -1 done: CPU: user: 0.38 s, system: 0.03 s, elapsed: 0.41 s
+2019-09-30 20:19:12.405 CEST [5159] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:12.810 CEST [5159] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.46 s, system: 0.04 s, elapsed: 0.82 s
+2019-09-30 20:19:12.810 CEST [5159] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:12.846 CEST [5165] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:12.846 CEST [5165] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:12.846 CEST [5165] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:12.846 CEST [5165] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:13.248 CEST [5165] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:13.248 CEST [5165] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:13.248 CEST [5165] LOG:  performsort of worker -1 starting: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:13.248 CEST [5165] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:13.262 CEST [5165] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:13.262 CEST [5165] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:13.630 CEST [5165] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.78 s
+2019-09-30 20:19:13.630 CEST [5165] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:13.691 CEST [5171] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:13.691 CEST [5171] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:13.691 CEST [5171] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:13.691 CEST [5171] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:14.093 CEST [5171] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:14.093 CEST [5171] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:14.093 CEST [5171] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:14.093 CEST [5171] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:14.107 CEST [5171] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:14.107 CEST [5171] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:14.459 CEST [5171] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.76 s
+2019-09-30 20:19:14.459 CEST [5171] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:14.549 CEST [5177] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:14.549 CEST [5177] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:14.549 CEST [5177] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:14.549 CEST [5177] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:14.951 CEST [5177] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:14.951 CEST [5177] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:14.951 CEST [5177] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:14.951 CEST [5177] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:14.966 CEST [5177] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:14.966 CEST [5177] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:15.279 CEST [5177] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.72 s
+2019-09-30 20:19:15.279 CEST [5177] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:15.409 CEST [5183] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:15.409 CEST [5183] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:15.409 CEST [5183] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:15.409 CEST [5183] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:15.811 CEST [5183] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:15.811 CEST [5183] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:15.811 CEST [5183] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:15.811 CEST [5183] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:15.826 CEST [5183] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:15.826 CEST [5183] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:16.091 CEST [5183] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.68 s
+2019-09-30 20:19:16.091 CEST [5183] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:16.238 CEST [5189] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:16.238 CEST [5189] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:16.238 CEST [5189] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:16.238 CEST [5189] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:16.640 CEST [5189] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:16.640 CEST [5189] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:16.640 CEST [5189] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:16.640 CEST [5189] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:16.654 CEST [5189] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:16.654 CEST [5189] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:17.043 CEST [5189] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.80 s
+2019-09-30 20:19:17.043 CEST [5189] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:17.090 CEST [5195] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:17.090 CEST [5195] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:17.090 CEST [5195] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:17.090 CEST [5195] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:17.492 CEST [5195] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:17.492 CEST [5195] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:17.492 CEST [5195] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:17.492 CEST [5195] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:17.507 CEST [5195] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:17.507 CEST [5195] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:17.874 CEST [5195] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.78 s
+2019-09-30 20:19:17.874 CEST [5195] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:17.949 CEST [5201] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:17.949 CEST [5201] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:17.949 CEST [5201] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:17.949 CEST [5201] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:18.351 CEST [5201] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:18.351 CEST [5201] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:18.351 CEST [5201] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:18.351 CEST [5201] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:18.366 CEST [5201] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:18.366 CEST [5201] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:18.691 CEST [5201] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.74 s
+2019-09-30 20:19:18.691 CEST [5201] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:18.793 CEST [5207] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:18.793 CEST [5207] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:18.793 CEST [5207] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:18.793 CEST [5207] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:19.195 CEST [5207] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:19.195 CEST [5207] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:19.195 CEST [5207] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:19.195 CEST [5207] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:19.209 CEST [5207] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:19.209 CEST [5207] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:19.517 CEST [5207] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.72 s
+2019-09-30 20:19:19.517 CEST [5207] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:19.645 CEST [5213] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:19.645 CEST [5213] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:19.645 CEST [5213] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:19.645 CEST [5213] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:20.047 CEST [5213] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:20.047 CEST [5213] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:20.047 CEST [5213] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:20.047 CEST [5213] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:20.061 CEST [5213] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:20.061 CEST [5213] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:20.471 CEST [5213] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.82 s
+2019-09-30 20:19:20.471 CEST [5213] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:20.502 CEST [5220] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:20.502 CEST [5220] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:20.502 CEST [5220] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:20.502 CEST [5220] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:20.904 CEST [5220] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:20.904 CEST [5220] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:20.904 CEST [5220] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:20.904 CEST [5220] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:20.918 CEST [5220] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:20.918 CEST [5220] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:21.288 CEST [5220] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.78 s
+2019-09-30 20:19:21.288 CEST [5220] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:21.347 CEST [5226] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:21.347 CEST [5226] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:21.347 CEST [5226] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:21.347 CEST [5226] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:21.749 CEST [5226] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:21.749 CEST [5226] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:21.749 CEST [5226] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:21.749 CEST [5226] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:21.763 CEST [5226] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:21.763 CEST [5226] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:22.118 CEST [5226] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.77 s
+2019-09-30 20:19:22.118 CEST [5226] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:22.205 CEST [5232] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:22.205 CEST [5232] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:22.205 CEST [5232] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:22.205 CEST [5232] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:22.607 CEST [5232] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:22.607 CEST [5232] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:22.607 CEST [5232] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:22.607 CEST [5232] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:22.621 CEST [5232] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:22.621 CEST [5232] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:22.938 CEST [5232] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.73 s
+2019-09-30 20:19:22.938 CEST [5232] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:23.060 CEST [5238] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:23.060 CEST [5238] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:23.060 CEST [5238] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:23.060 CEST [5238] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:23.462 CEST [5238] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:23.462 CEST [5238] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:23.462 CEST [5238] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:23.462 CEST [5238] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:23.477 CEST [5238] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:23.477 CEST [5238] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:23.754 CEST [5238] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.69 s
+2019-09-30 20:19:23.754 CEST [5238] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:23.892 CEST [5244] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:23.892 CEST [5244] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:23.892 CEST [5244] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:23.892 CEST [5244] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:24.295 CEST [5244] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:24.295 CEST [5244] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:24.295 CEST [5244] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:24.295 CEST [5244] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:24.309 CEST [5244] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:24.309 CEST [5244] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:24.697 CEST [5244] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.80 s
+2019-09-30 20:19:24.697 CEST [5244] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:24.740 CEST [5250] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:24.740 CEST [5250] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:24.740 CEST [5250] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:24.740 CEST [5250] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:25.142 CEST [5250] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:25.142 CEST [5250] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:25.142 CEST [5250] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:25.142 CEST [5250] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:25.156 CEST [5250] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:25.156 CEST [5250] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:25.525 CEST [5250] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.46 s, system: 0.04 s, elapsed: 0.78 s
+2019-09-30 20:19:25.525 CEST [5250] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:25.596 CEST [5257] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:25.596 CEST [5257] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:25.596 CEST [5257] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:25.596 CEST [5257] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:25.998 CEST [5257] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:25.998 CEST [5257] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:25.998 CEST [5257] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:25.998 CEST [5257] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:26.013 CEST [5257] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:26.013 CEST [5257] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:26.344 CEST [5257] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.03 s, elapsed: 0.74 s
+2019-09-30 20:19:26.344 CEST [5257] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:26.451 CEST [5263] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:26.451 CEST [5263] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:26.451 CEST [5263] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:26.451 CEST [5263] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:26.853 CEST [5263] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:26.853 CEST [5263] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:26.853 CEST [5263] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:26.853 CEST [5263] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:26.868 CEST [5263] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:26.868 CEST [5263] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:27.175 CEST [5263] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.72 s
+2019-09-30 20:19:27.175 CEST [5263] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:27.298 CEST [5269] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:27.298 CEST [5269] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:27.298 CEST [5269] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:27.298 CEST [5269] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:27.700 CEST [5269] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:27.700 CEST [5269] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:27.700 CEST [5269] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:27.700 CEST [5269] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:27.714 CEST [5269] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:27.714 CEST [5269] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:28.123 CEST [5269] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.82 s
+2019-09-30 20:19:28.123 CEST [5269] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:28.149 CEST [5275] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:28.149 CEST [5275] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:28.149 CEST [5275] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:28.149 CEST [5275] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:28.551 CEST [5275] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:28.551 CEST [5275] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:28.551 CEST [5275] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:28.551 CEST [5275] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:28.565 CEST [5275] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:28.565 CEST [5275] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:28.954 CEST [5275] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.80 s
+2019-09-30 20:19:28.954 CEST [5275] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:29.009 CEST [5281] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:29.009 CEST [5281] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:29.009 CEST [5281] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:29.009 CEST [5281] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:29.411 CEST [5281] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:29.411 CEST [5281] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:29.411 CEST [5281] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:29.411 CEST [5281] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:29.425 CEST [5281] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:29.425 CEST [5281] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:29.777 CEST [5281] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.76 s
+2019-09-30 20:19:29.777 CEST [5281] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:29.860 CEST [5287] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:29.860 CEST [5287] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:29.860 CEST [5287] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:29.860 CEST [5287] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:30.262 CEST [5287] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:30.262 CEST [5287] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:30.262 CEST [5287] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:30.262 CEST [5287] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:30.277 CEST [5287] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:30.277 CEST [5287] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:30.598 CEST [5287] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.73 s
+2019-09-30 20:19:30.598 CEST [5287] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:30.708 CEST [5293] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:30.708 CEST [5293] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:30.708 CEST [5293] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:30.708 CEST [5293] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:31.110 CEST [5293] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.39 s, system: 0.00 s, elapsed: 0.40 s
+2019-09-30 20:19:31.110 CEST [5293] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:31.110 CEST [5293] LOG:  performsort of worker -1 starting: CPU: user: 0.39 s, system: 0.00 s, elapsed: 0.40 s
+2019-09-30 20:19:31.110 CEST [5293] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:31.125 CEST [5293] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.00 s, elapsed: 0.41 s
+2019-09-30 20:19:31.125 CEST [5293] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:31.424 CEST [5293] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.71 s
+2019-09-30 20:19:31.424 CEST [5293] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:31.568 CEST [5299] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:31.568 CEST [5299] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:31.568 CEST [5299] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:31.568 CEST [5299] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:31.970 CEST [5299] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:31.970 CEST [5299] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:31.970 CEST [5299] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:31.970 CEST [5299] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:31.985 CEST [5299] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:31.985 CEST [5299] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:32.377 CEST [5299] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.03 s, elapsed: 0.80 s
+2019-09-30 20:19:32.377 CEST [5299] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:32.414 CEST [5305] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:32.414 CEST [5305] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:32.414 CEST [5305] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:32.414 CEST [5305] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:32.817 CEST [5305] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:32.817 CEST [5305] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:32.817 CEST [5305] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:32.817 CEST [5305] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:32.831 CEST [5305] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:32.831 CEST [5305] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:33.203 CEST [5305] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.78 s
+2019-09-30 20:19:33.203 CEST [5305] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:33.269 CEST [5311] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:33.269 CEST [5311] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:33.269 CEST [5311] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:33.269 CEST [5311] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:33.684 CEST [5311] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:33.684 CEST [5311] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:33.684 CEST [5311] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:33.684 CEST [5311] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:33.700 CEST [5311] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.02 s, elapsed: 0.43 s
+2019-09-30 20:19:33.700 CEST [5311] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:34.052 CEST [5311] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.04 s, elapsed: 0.78 s
+2019-09-30 20:19:34.052 CEST [5311] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:34.145 CEST [5317] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:34.145 CEST [5317] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:34.145 CEST [5317] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:34.145 CEST [5317] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:34.547 CEST [5317] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:34.547 CEST [5317] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:34.547 CEST [5317] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:34.547 CEST [5317] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:34.562 CEST [5317] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:34.562 CEST [5317] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:34.870 CEST [5317] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.72 s
+2019-09-30 20:19:34.870 CEST [5317] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:34.992 CEST [5342] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:34.992 CEST [5342] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:34.992 CEST [5342] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:34.992 CEST [5342] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:35.394 CEST [5342] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:35.394 CEST [5342] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:35.394 CEST [5342] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:35.394 CEST [5342] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:35.409 CEST [5342] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:35.409 CEST [5342] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:35.677 CEST [5342] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.68 s
+2019-09-30 20:19:35.677 CEST [5342] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:35.831 CEST [5348] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:35.831 CEST [5348] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:35.831 CEST [5348] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:35.831 CEST [5348] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:36.233 CEST [5348] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:36.233 CEST [5348] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:36.233 CEST [5348] LOG:  performsort of worker -1 starting: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:36.233 CEST [5348] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:36.247 CEST [5348] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:36.247 CEST [5348] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:36.633 CEST [5348] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.80 s
+2019-09-30 20:19:36.633 CEST [5348] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:36.681 CEST [5354] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:36.681 CEST [5354] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:36.682 CEST [5354] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:36.682 CEST [5354] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:37.083 CEST [5354] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:37.083 CEST [5354] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:37.083 CEST [5354] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:37.083 CEST [5354] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:37.098 CEST [5354] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:37.098 CEST [5354] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:37.448 CEST [5354] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.76 s
+2019-09-30 20:19:37.448 CEST [5354] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:37.526 CEST [5360] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:37.526 CEST [5360] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:37.526 CEST [5360] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:37.526 CEST [5360] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:37.928 CEST [5360] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:37.928 CEST [5360] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:37.928 CEST [5360] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:37.928 CEST [5360] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:37.942 CEST [5360] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:37.942 CEST [5360] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:38.279 CEST [5360] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.75 s
+2019-09-30 20:19:38.279 CEST [5360] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:38.383 CEST [5366] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:38.383 CEST [5366] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:38.383 CEST [5366] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:38.383 CEST [5366] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:38.785 CEST [5366] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:38.785 CEST [5366] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:38.785 CEST [5366] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:38.785 CEST [5366] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:38.799 CEST [5366] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:38.799 CEST [5366] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:39.109 CEST [5366] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.72 s
+2019-09-30 20:19:39.109 CEST [5366] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:39.243 CEST [5372] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:39.243 CEST [5372] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:39.243 CEST [5372] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:39.243 CEST [5372] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:39.645 CEST [5372] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:39.645 CEST [5372] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:39.645 CEST [5372] LOG:  performsort of worker -1 starting: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:39.645 CEST [5372] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:39.659 CEST [5372] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:39.659 CEST [5372] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:40.052 CEST [5372] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.80 s
+2019-09-30 20:19:40.052 CEST [5372] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:40.086 CEST [5378] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:40.086 CEST [5378] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:40.086 CEST [5378] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:40.086 CEST [5378] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:40.488 CEST [5378] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:40.488 CEST [5378] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:40.488 CEST [5378] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:40.488 CEST [5378] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:40.503 CEST [5378] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:40.503 CEST [5378] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:40.880 CEST [5378] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.79 s
+2019-09-30 20:19:40.880 CEST [5378] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:40.942 CEST [5384] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:40.942 CEST [5384] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:40.942 CEST [5384] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:40.942 CEST [5384] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:41.344 CEST [5384] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:41.344 CEST [5384] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:41.344 CEST [5384] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:41.344 CEST [5384] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:41.358 CEST [5384] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:41.358 CEST [5384] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:41.708 CEST [5384] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.76 s
+2019-09-30 20:19:41.708 CEST [5384] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:41.799 CEST [5390] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:41.799 CEST [5390] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:41.799 CEST [5390] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:41.799 CEST [5390] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:42.201 CEST [5390] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:42.201 CEST [5390] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:42.201 CEST [5390] LOG:  performsort of worker -1 starting: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:42.201 CEST [5390] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:42.215 CEST [5390] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:42.215 CEST [5390] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:42.534 CEST [5390] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.73 s
+2019-09-30 20:19:42.534 CEST [5390] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:42.653 CEST [5396] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:42.653 CEST [5396] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:42.653 CEST [5396] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:42.653 CEST [5396] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:43.056 CEST [5396] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:43.056 CEST [5396] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:43.056 CEST [5396] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:43.056 CEST [5396] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:43.070 CEST [5396] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:43.070 CEST [5396] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:43.349 CEST [5396] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.69 s
+2019-09-30 20:19:43.349 CEST [5396] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:43.504 CEST [5402] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:43.504 CEST [5402] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:43.504 CEST [5402] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:43.504 CEST [5402] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:43.906 CEST [5402] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:43.906 CEST [5402] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:43.906 CEST [5402] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:43.906 CEST [5402] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:43.920 CEST [5402] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:43.920 CEST [5402] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:44.308 CEST [5402] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.80 s
+2019-09-30 20:19:44.308 CEST [5402] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:44.353 CEST [5408] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:44.353 CEST [5408] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:44.353 CEST [5408] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:44.353 CEST [5408] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:44.755 CEST [5408] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:44.755 CEST [5408] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:44.755 CEST [5408] LOG:  performsort of worker -1 starting: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:44.755 CEST [5408] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:44.769 CEST [5408] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:44.769 CEST [5408] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:45.127 CEST [5408] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.77 s
+2019-09-30 20:19:45.127 CEST [5408] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:45.211 CEST [5414] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:45.211 CEST [5414] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:45.211 CEST [5414] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:45.211 CEST [5414] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:45.613 CEST [5414] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:45.613 CEST [5414] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:45.613 CEST [5414] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:45.613 CEST [5414] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:45.627 CEST [5414] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:45.627 CEST [5414] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:45.956 CEST [5414] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.74 s
+2019-09-30 20:19:45.956 CEST [5414] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:46.055 CEST [5420] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:46.055 CEST [5420] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:46.055 CEST [5420] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:46.055 CEST [5420] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:46.457 CEST [5420] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:46.457 CEST [5420] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:46.457 CEST [5420] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:46.457 CEST [5420] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:46.472 CEST [5420] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:46.472 CEST [5420] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:46.780 CEST [5420] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.72 s
+2019-09-30 20:19:46.780 CEST [5420] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:46.909 CEST [5426] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:46.909 CEST [5426] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:46.909 CEST [5426] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:46.909 CEST [5426] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:47.311 CEST [5426] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:47.311 CEST [5426] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:47.311 CEST [5426] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:47.311 CEST [5426] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:47.325 CEST [5426] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:47.325 CEST [5426] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:47.737 CEST [5426] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.48 s, system: 0.02 s, elapsed: 0.82 s
+2019-09-30 20:19:47.737 CEST [5426] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:47.767 CEST [5432] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:47.767 CEST [5432] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:47.767 CEST [5432] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:47.767 CEST [5432] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:48.169 CEST [5432] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:48.169 CEST [5432] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:48.169 CEST [5432] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:48.169 CEST [5432] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:48.183 CEST [5432] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:48.183 CEST [5432] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:48.556 CEST [5432] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.78 s
+2019-09-30 20:19:48.556 CEST [5432] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:48.612 CEST [5438] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:48.612 CEST [5438] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:48.612 CEST [5438] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:48.612 CEST [5438] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:49.014 CEST [5438] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:49.014 CEST [5438] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:49.014 CEST [5438] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.01 s, elapsed: 0.40 s
+2019-09-30 20:19:49.014 CEST [5438] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:49.028 CEST [5438] LOG:  performsort of worker -1 done: CPU: user: 0.40 s, system: 0.01 s, elapsed: 0.41 s
+2019-09-30 20:19:49.028 CEST [5438] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:49.381 CEST [5438] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.76 s
+2019-09-30 20:19:49.381 CEST [5438] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:49.466 CEST [5444] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:49.466 CEST [5444] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:49.466 CEST [5444] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:49.466 CEST [5444] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:49.868 CEST [5444] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:49.868 CEST [5444] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:49.868 CEST [5444] LOG:  performsort of worker -1 starting: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:49.868 CEST [5444] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:49.882 CEST [5444] LOG:  performsort of worker -1 done: CPU: user: 0.39 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:49.882 CEST [5444] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:50.206 CEST [5444] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.47 s, system: 0.03 s, elapsed: 0.73 s
+2019-09-30 20:19:50.206 CEST [5444] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:50.337 CEST [5451] LOG:  begin index sort: unique = t, workMem = 524288, randomAccess = f
+2019-09-30 20:19:50.337 CEST [5451] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:50.338 CEST [5451] LOG:  begin index sort: unique = f, workMem = 524288, randomAccess = f
+2019-09-30 20:19:50.338 CEST [5451] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:50.739 CEST [5451] LOG:  internal sort of worker -1 ended, 25 KB used: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:50.739 CEST [5451] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:50.739 CEST [5451] LOG:  performsort of worker -1 starting: CPU: user: 0.37 s, system: 0.02 s, elapsed: 0.40 s
+2019-09-30 20:19:50.739 CEST [5451] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:50.754 CEST [5451] LOG:  performsort of worker -1 done: CPU: user: 0.38 s, system: 0.02 s, elapsed: 0.41 s
+2019-09-30 20:19:50.754 CEST [5451] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:51.044 CEST [5451] LOG:  internal sort of worker -1 ended, 55827 KB used: CPU: user: 0.46 s, system: 0.05 s, elapsed: 0.70 s
+2019-09-30 20:19:51.044 CEST [5451] STATEMENT:  reindex index pgbench_accounts_pkey;
+2019-09-30 20:19:51.183 CEST [4811] LOG:  received fast shutdown request
+2019-09-30 20:19:51.183 CEST [4811] LOG:  aborting any active transactions
+2019-09-30 20:19:51.184 CEST [4811] LOG:  background worker "logical replication launcher" (PID 4818) exited with exit code 1
+2019-09-30 20:19:51.184 CEST [4813] LOG:  shutting down
+2019-09-30 20:19:51.206 CEST [4811] LOG:  database system is shut down

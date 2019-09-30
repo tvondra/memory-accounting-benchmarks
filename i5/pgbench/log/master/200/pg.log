@@ -1,0 +1,15 @@
+2019-10-01 00:54:28.916 CEST [15903] LOG:  starting PostgreSQL 13devel on x86_64-pc-linux-gnu, compiled by gcc (Gentoo 7.3.0-r3 p1.4) 7.3.0, 64-bit
+2019-10-01 00:54:28.916 CEST [15903] LOG:  listening on IPv6 address "::1", port 5432
+2019-10-01 00:54:28.916 CEST [15903] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-01 00:54:28.919 CEST [15903] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-01 00:54:28.920 CEST [15904] LOG:  database system was shut down at 2019-10-01 00:54:28 CEST
+2019-10-01 00:54:28.921 CEST [15903] LOG:  database system is ready to accept connections
+2019-10-01 00:54:50.553 CEST [15905] LOG:  checkpoints are occurring too frequently (21 seconds apart)
+2019-10-01 00:54:50.553 CEST [15905] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 00:55:45.983 CEST [15905] LOG:  checkpoints are occurring too frequently (21 seconds apart)
+2019-10-01 00:55:45.983 CEST [15905] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 01:21:27.548 CEST [15903] LOG:  received fast shutdown request
+2019-10-01 01:21:27.548 CEST [15903] LOG:  aborting any active transactions
+2019-10-01 01:21:27.550 CEST [15903] LOG:  background worker "logical replication launcher" (PID 15910) exited with exit code 1
+2019-10-01 01:21:27.564 CEST [15905] LOG:  shutting down
+2019-10-01 01:21:27.637 CEST [15903] LOG:  database system is shut down

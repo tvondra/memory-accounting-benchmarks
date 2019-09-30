@@ -1,0 +1,126 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 init [3]
+    2 ?        S      0:00 [kthreadd]
+    3 ?        I<     0:00 [rcu_gp]
+    4 ?        I<     0:00 [rcu_par_gp]
+    6 ?        I<     0:00 [kworker/0:0H-kblockd]
+    8 ?        I<     0:00 [mm_percpu_wq]
+    9 ?        S      0:01 [ksoftirqd/0]
+   10 ?        I      0:21 [rcu_sched]
+   11 ?        S      0:00 [migration/0]
+   12 ?        S      0:00 [cpuhp/0]
+   13 ?        S      0:00 [cpuhp/1]
+   14 ?        S      0:00 [migration/1]
+   15 ?        S      0:00 [ksoftirqd/1]
+   17 ?        I<     0:00 [kworker/1:0H-kblockd]
+   18 ?        S      0:00 [cpuhp/2]
+   19 ?        S      0:00 [migration/2]
+   20 ?        S      0:00 [ksoftirqd/2]
+   22 ?        I<     0:00 [kworker/2:0H-events_highpri]
+   23 ?        S      0:00 [cpuhp/3]
+   24 ?        S      0:00 [migration/3]
+   25 ?        S      0:00 [ksoftirqd/3]
+   26 ?        I      0:10 [kworker/3:0-events_power_efficient]
+   27 ?        I<     0:00 [kworker/3:0H-events_highpri]
+   28 ?        S      0:00 [kdevtmpfs]
+   29 ?        I<     0:00 [netns]
+   32 ?        S      0:00 [kauditd]
+   47 ?        I      0:00 [kworker/3:1-events]
+   51 ?        I      0:01 [kworker/1:1-xfs-conv/sdg2]
+  488 ?        I      0:00 [kworker/2:1-events_freezable_power_]
+  489 ?        I      0:04 [kworker/2:2-xfs-cil/sdg2]
+  490 ?        S      0:00 [oom_reaper]
+  491 ?        I<     0:00 [writeback]
+  493 ?        S      0:00 [kcompactd0]
+  494 ?        I<     0:00 [crypto]
+  567 ?        I<     0:00 [pencrypt]
+  569 ?        I<     0:00 [pdecrypt]
+  681 ?        I<     0:00 [kintegrityd]
+  683 ?        I<     0:00 [kblockd]
+  851 ?        I<     0:00 [ata_sff]
+  867 ?        I<     0:00 [md]
+  870 ?        I<     0:00 [edac-poller]
+  880 ?        S      0:00 [watchdogd]
+  978 ?        I<     0:00 [rpciod]
+  979 ?        I<     0:00 [kworker/u9:0]
+  980 ?        I<     0:00 [xprtiod]
+ 1207 ?        S      0:00 [kswapd0]
+ 1333 ?        I<     0:00 [nfsiod]
+ 1347 ?        I<     0:00 [xfsalloc]
+ 1348 ?        I<     0:00 [xfs_mru_cache]
+ 1412 ?        I<     0:00 [acpi_thermal_pm]
+ 1451 ?        I<     0:01 [kworker/3:1H-kblockd]
+ 1503 ?        I      0:00 [kworker/1:2-events_freezable_power_]
+ 1522 ?        S      0:00 [scsi_eh_0]
+ 1523 ?        I<     0:00 [scsi_tmf_0]
+ 1527 ?        S      0:00 [scsi_eh_1]
+ 1528 ?        I<     0:00 [scsi_tmf_1]
+ 1531 ?        S      0:00 [scsi_eh_2]
+ 1532 ?        I<     0:00 [scsi_tmf_2]
+ 1535 ?        S      0:00 [scsi_eh_3]
+ 1536 ?        I<     0:00 [scsi_tmf_3]
+ 1539 ?        S      0:00 [scsi_eh_4]
+ 1540 ?        I<     0:00 [scsi_tmf_4]
+ 1543 ?        S      0:00 [scsi_eh_5]
+ 1544 ?        I<     0:00 [scsi_tmf_5]
+ 1559 ?        S      0:00 [scsi_eh_6]
+ 1560 ?        I<     0:00 [scsi_tmf_6]
+ 1563 ?        S      0:00 [scsi_eh_7]
+ 1564 ?        I<     0:00 [scsi_tmf_7]
+ 1576 ?        S      0:00 [scsi_eh_8]
+ 1577 ?        I<     0:00 [scsi_tmf_8]
+ 1580 ?        S      0:00 [scsi_eh_9]
+ 1581 ?        I<     0:00 [scsi_tmf_9]
+ 1594 ?        I<     0:01 [kworker/2:1H-kblockd]
+ 1639 ?        I<     0:00 [raid5wq]
+ 1641 ?        I<     0:00 [bcache]
+ 1642 ?        I<     0:00 [bch_journal]
+ 1646 ?        I<     0:00 [dm_bufio_cache]
+ 1648 ?        I<     0:00 [kmpathd]
+ 1649 ?        I<     0:00 [kmpath_handlerd]
+ 1692 ?        I<     0:00 [ipv6_addrconf]
+ 1773 ?        I<     0:01 [kworker/0:1H-kblockd]
+ 1840 ?        I<     0:45 [kworker/1:1H-kblockd]
+ 1843 ?        I<     0:00 [xfs-buf/sdg2]
+ 1844 ?        I<     0:00 [xfs-conv/sdg2]
+ 1845 ?        I<     0:00 [xfs-cil/sdg2]
+ 1846 ?        I<     0:00 [xfs-reclaim/sdg]
+ 1847 ?        I<     0:00 [xfs-log/sdg2]
+ 1848 ?        I<     0:00 [xfs-eofblocks/s]
+ 1849 ?        S      0:33 [xfsaild/sdg2]
+ 2290 ?        Ss     0:00 /sbin/udevd
+ 2712 ?        S      0:21 [jbd2/sdh1-8]
+ 2713 ?        I<     0:00 [ext4-rsv-conver]
+ 2714 ?        S      0:00 [jbd2/md0-8]
+ 2715 ?        I<     0:00 [ext4-rsv-conver]
+ 3090 ?        SNsl   5:50 /usr/sbin/collectd -C /etc/collectd.conf -f
+ 3135 ?        S      0:00 supervising syslog-ng
+ 3136 ?        Ss     0:00 /usr/sbin/syslog-ng --cfgfile /etc/syslog-ng/syslog-ng.conf --control /run/syslog-ng.ctl --persist-file /var/lib/syslog-ng/syslog-ng.persist --pidfile /run/syslog-ng.pid
+ 3167 ?        Ss     0:00 /usr/sbin/crond
+ 3228 ?        Ss     0:00 /sbin/dhcpcd -q
+ 3293 ?        Ss     0:00 /usr/sbin/sshd -o PidFile=/run/sshd.pid -f /etc/ssh/sshd_config
+ 3330 tty1     Ss+    0:00 /sbin/agetty 38400 tty1 linux
+ 3331 tty2     Ss+    0:00 /sbin/agetty 38400 tty2 linux
+ 3332 tty3     Ss+    0:00 /sbin/agetty 38400 tty3 linux
+ 3333 tty4     Ss+    0:00 /sbin/agetty 38400 tty4 linux
+ 3334 tty5     Ss+    0:00 /sbin/agetty 38400 tty5 linux
+ 3335 tty6     Ss+    0:00 /sbin/agetty 38400 tty6 linux
+ 3504 ?        I      0:00 [kworker/0:1-xfs-cil/sdg2]
+ 4146 pts/1    S+     0:00 /bin/bash ./run.sh
+ 4165 ?        I      0:00 [kworker/u8:3-flush-8:112]
+ 5847 ?        I      0:00 [kworker/u8:0-flush-8:96]
+ 6340 ?        I      0:00 [kworker/0:2-events]
+ 7080 ?        I      0:00 [kworker/0:0-mm_percpu_wq]
+ 7364 ?        I      0:00 [kworker/u8:1]
+ 7535 ?        Ss     0:00 /var/lib/postgresql/accounting/pg-patched/bin/postgres -D /mnt/data/accounting
+ 7537 ?        Ss     0:00 postgres: checkpointer   
+ 7538 ?        Ss     0:00 postgres: background writer   
+ 7539 ?        Ss     0:00 postgres: walwriter   
+ 7540 ?        Ss     0:00 postgres: autovacuum launcher   
+ 7541 ?        Ss     0:00 postgres: stats collector   
+ 7542 ?        Ss     0:00 postgres: logical replication launcher   
+ 7543 pts/1    R+     0:00 ps ax
+10159 ?        Ss     0:00 SCREEN
+10160 pts/1    Ss     0:00 -/bin/bash
+12168 pts/1    S      0:00 su - postgres
+12169 pts/1    S      0:00 -su

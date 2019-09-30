@@ -1,0 +1,62 @@
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+generating data...
+100000 of 5000000 tuples (2%) done (elapsed 0.12 s, remaining 6.06 s)
+200000 of 5000000 tuples (4%) done (elapsed 0.51 s, remaining 12.18 s)
+300000 of 5000000 tuples (6%) done (elapsed 0.76 s, remaining 11.95 s)
+400000 of 5000000 tuples (8%) done (elapsed 1.14 s, remaining 13.16 s)
+500000 of 5000000 tuples (10%) done (elapsed 1.28 s, remaining 11.50 s)
+600000 of 5000000 tuples (12%) done (elapsed 1.65 s, remaining 12.14 s)
+700000 of 5000000 tuples (14%) done (elapsed 2.04 s, remaining 12.54 s)
+800000 of 5000000 tuples (16%) done (elapsed 2.40 s, remaining 12.60 s)
+900000 of 5000000 tuples (18%) done (elapsed 2.65 s, remaining 12.06 s)
+1000000 of 5000000 tuples (20%) done (elapsed 2.78 s, remaining 11.12 s)
+1100000 of 5000000 tuples (22%) done (elapsed 3.20 s, remaining 11.33 s)
+1200000 of 5000000 tuples (24%) done (elapsed 3.58 s, remaining 11.33 s)
+1300000 of 5000000 tuples (26%) done (elapsed 3.94 s, remaining 11.22 s)
+1400000 of 5000000 tuples (28%) done (elapsed 4.33 s, remaining 11.13 s)
+1500000 of 5000000 tuples (30%) done (elapsed 4.47 s, remaining 10.42 s)
+1600000 of 5000000 tuples (32%) done (elapsed 4.72 s, remaining 10.04 s)
+1700000 of 5000000 tuples (34%) done (elapsed 5.11 s, remaining 9.92 s)
+1800000 of 5000000 tuples (36%) done (elapsed 5.50 s, remaining 9.78 s)
+1900000 of 5000000 tuples (38%) done (elapsed 5.90 s, remaining 9.63 s)
+2000000 of 5000000 tuples (40%) done (elapsed 6.04 s, remaining 9.06 s)
+2100000 of 5000000 tuples (42%) done (elapsed 6.43 s, remaining 8.89 s)
+2200000 of 5000000 tuples (44%) done (elapsed 6.68 s, remaining 8.50 s)
+2300000 of 5000000 tuples (46%) done (elapsed 7.08 s, remaining 8.31 s)
+2400000 of 5000000 tuples (48%) done (elapsed 7.47 s, remaining 8.09 s)
+2500000 of 5000000 tuples (50%) done (elapsed 7.61 s, remaining 7.61 s)
+2600000 of 5000000 tuples (52%) done (elapsed 7.99 s, remaining 7.38 s)
+2700000 of 5000000 tuples (54%) done (elapsed 8.39 s, remaining 7.15 s)
+2800000 of 5000000 tuples (56%) done (elapsed 8.64 s, remaining 6.79 s)
+2900000 of 5000000 tuples (58%) done (elapsed 9.01 s, remaining 6.53 s)
+3000000 of 5000000 tuples (60%) done (elapsed 9.15 s, remaining 6.10 s)
+3100000 of 5000000 tuples (62%) done (elapsed 9.54 s, remaining 5.85 s)
+3200000 of 5000000 tuples (64%) done (elapsed 9.93 s, remaining 5.59 s)
+3300000 of 5000000 tuples (66%) done (elapsed 10.32 s, remaining 5.32 s)
+3400000 of 5000000 tuples (68%) done (elapsed 10.58 s, remaining 4.98 s)
+3500000 of 5000000 tuples (70%) done (elapsed 10.72 s, remaining 4.59 s)
+3600000 of 5000000 tuples (72%) done (elapsed 11.19 s, remaining 4.35 s)
+3700000 of 5000000 tuples (74%) done (elapsed 11.57 s, remaining 4.07 s)
+3800000 of 5000000 tuples (76%) done (elapsed 11.95 s, remaining 3.77 s)
+3900000 of 5000000 tuples (78%) done (elapsed 12.35 s, remaining 3.48 s)
+4000000 of 5000000 tuples (80%) done (elapsed 12.49 s, remaining 3.12 s)
+4100000 of 5000000 tuples (82%) done (elapsed 12.77 s, remaining 2.80 s)
+4200000 of 5000000 tuples (84%) done (elapsed 13.22 s, remaining 2.52 s)
+4300000 of 5000000 tuples (86%) done (elapsed 13.69 s, remaining 2.23 s)
+4400000 of 5000000 tuples (88%) done (elapsed 14.11 s, remaining 1.92 s)
+4500000 of 5000000 tuples (90%) done (elapsed 14.25 s, remaining 1.58 s)
+4600000 of 5000000 tuples (92%) done (elapsed 14.70 s, remaining 1.28 s)
+4700000 of 5000000 tuples (94%) done (elapsed 15.01 s, remaining 0.96 s)
+4800000 of 5000000 tuples (96%) done (elapsed 15.52 s, remaining 0.65 s)
+4900000 of 5000000 tuples (98%) done (elapsed 15.99 s, remaining 0.33 s)
+5000000 of 5000000 tuples (100%) done (elapsed 16.13 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 24.33 s (drop tables 0.00 s, create tables 0.01 s, generate 16.42 s, vacuum 1.40 s, primary keys 6.50 s).
+VACUUM
+CHECKPOINT

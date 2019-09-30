@@ -1,0 +1,10 @@
+2019-09-30 23:26:19.952 CEST [31714] LOG:  starting PostgreSQL 13devel on x86_64-pc-linux-gnu, compiled by gcc (Gentoo 6.4.0-r1 p1.3) 6.4.0, 64-bit
+2019-09-30 23:26:19.952 CEST [31714] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-09-30 23:26:19.953 CEST [31714] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-09-30 23:26:19.954 CEST [31715] LOG:  database system was shut down at 2019-09-30 23:26:19 CEST
+2019-09-30 23:26:19.955 CEST [31714] LOG:  database system is ready to accept connections
+2019-09-30 23:51:34.434 CEST [31714] LOG:  received fast shutdown request
+2019-09-30 23:51:34.435 CEST [31714] LOG:  aborting any active transactions
+2019-09-30 23:51:34.435 CEST [31714] LOG:  background worker "logical replication launcher" (PID 31721) exited with exit code 1
+2019-09-30 23:51:34.450 CEST [31716] LOG:  shutting down
+2019-09-30 23:51:34.561 CEST [31714] LOG:  database system is shut down

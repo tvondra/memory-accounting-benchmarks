@@ -1,0 +1,26 @@
+2019-10-01 00:42:32.966 CEST [2389] LOG:  starting PostgreSQL 13devel on x86_64-pc-linux-gnu, compiled by gcc (Gentoo 6.4.0-r1 p1.3) 6.4.0, 64-bit
+2019-10-01 00:42:32.966 CEST [2389] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-01 00:42:32.967 CEST [2389] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-01 00:42:32.968 CEST [2390] LOG:  database system was shut down at 2019-10-01 00:42:32 CEST
+2019-10-01 00:42:32.969 CEST [2389] LOG:  database system is ready to accept connections
+2019-10-01 00:42:43.777 CEST [2391] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2019-10-01 00:42:43.777 CEST [2391] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 00:42:54.185 CEST [2391] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2019-10-01 00:42:54.185 CEST [2391] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 00:43:04.442 CEST [2391] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2019-10-01 00:43:04.442 CEST [2391] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 00:43:14.522 CEST [2391] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2019-10-01 00:43:14.522 CEST [2391] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 00:43:24.601 CEST [2391] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2019-10-01 00:43:24.601 CEST [2391] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 00:43:34.695 CEST [2391] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2019-10-01 00:43:34.695 CEST [2391] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 00:43:44.772 CEST [2391] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2019-10-01 00:43:44.772 CEST [2391] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 00:44:37.634 CEST [2391] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2019-10-01 00:44:37.634 CEST [2391] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2019-10-01 01:09:40.477 CEST [2389] LOG:  received fast shutdown request
+2019-10-01 01:09:40.478 CEST [2389] LOG:  aborting any active transactions
+2019-10-01 01:09:40.478 CEST [2389] LOG:  background worker "logical replication launcher" (PID 2396) exited with exit code 1
+2019-10-01 01:09:40.573 CEST [2391] LOG:  shutting down
+2019-10-01 01:09:41.097 CEST [2389] LOG:  database system is shut down
